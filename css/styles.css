@@ -1,0 +1,221 @@
+:root {
+  --brand-color: #2196f3;
+  --white-color: #ffffff;
+  --nav-color: #212121;
+  --color-gray: #757575;
+  --color-dark-gray: #2f303a;
+}
+
+.body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.hero-button {
+  background-color: var(--brand-color);
+  cursor: pointer;
+}
+
+/* -------------HEADER--------------- */
+/* .header {
+  background-color: var(--white-color);
+} */
+
+.web-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--brand-color);
+}
+
+.studio-link {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header-page-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--nav-color);
+}
+
+.studio-link:hover,
+.studio-link:focus,
+.header-page-link:hover,
+.header-page-link:focus {
+  color: var(--brand-color);
+}
+
+.header-mail-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--color-gray);
+}
+
+.footer-mail-tel:hover,
+.footer-mail-tel:focus,
+.header-mail-tel:hover,
+.header-mail-tel:focus {
+  color: var(--brand-color);
+}
+
+/* ----------------------------HERO--------------- */
+
+.hero {
+  background-color: var(--color-dark-gray);
+}
+
+.hero-text {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.hero-button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--white-color);
+}
+
+/* ----------------------------CENTRAL LIST--------------- */
+
+.central-list-title {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--nav-color);
+}
+
+.central-list-text {
+  font-size: 14px;
+  line-height: 1.71;
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--color-gray);
+}
+
+/* ----------------------------WHAT WE DO--------------- */
+
+.central-title {
+  font-size: 36px;
+  line-height: 1.28;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+}
+/* ----------------------------OUR TEAM--------------- */
+
+.team-name {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+}
+
+.team-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-gray);
+}
+
+/* ----------------------------FOOTER--------------- */
+.footer {
+  background-color: var(--color-dark-gray);
+}
+
+.studio-link-footer {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+}
+
+.studio-link-footer:hover,
+.studio-link-footer:focus {
+  color: var(--brand-color);
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  font-style: normal;
+}
+
+.footer-mail-tel {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+/* ----------------------------PORTFOLIO--------------- */
+
+.portfolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--nav-color);
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background-color: var(--brand-color);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--nav-color);
+}
+
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--color-gray);
+}
