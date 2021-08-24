@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,21 +13,25 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body class="body">
     <header class="header">
-        <a href="./index.html" class="web-link link" lang="en">Web<span class="studio-link link"
-                lang="en">Studio</span></a>
-        <nav class="nav">
-            <ul class="list">
-                <li><a class="header-page-link link" href="./index.html">Студия</a></li>
-                <li><a class="header-page-link link" href="">Портфолио</a></li>
-                <li><a class="header-page-link link" href="">Контакты</a></li>
-            </ul>
-        </nav>
-        <a class="header-mail-tel link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="header-mail-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
+        <div class="header-container">
+            <div class="webstudio-container">
+                <a href="" class="web-link link" lang="en">Web<span class="studio-link link" lang="en">Studio</span></a>
+            </div>
+            <nav class="nav">
+                <ul class="header-link-set list">
+                    <li><a class="header-page-link studio link" href="./index.html">Студия</a></li>
+                    <li><a class="header-page-link portfolio link" href="./portfolio.html">Портфолио</a></li>
+                    <li><a class="header-page-link contacts link" href="">Контакты</a></li>
+                </ul>
+            </nav>
+            <a class="header-mail-tel mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="header-mail-tel tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+        </div>
     </header>
     <main>
         <section>
@@ -91,10 +94,14 @@
 
     </main>
     <footer class="footer">
-        <a href="" class="web-link link" lang="en">Web<span class="studio-link-footer link" lang="en">Studio</span></a>
-        <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
-        <a class="footer-mail-tel" lang="en" href="mailto:info@example.com">info@example.com</a>
-        <a class="footer-mail-tel" href="tel:+380991111111">+38 099 111 11 11</a>
+        <div class="webstudio-container-footer">
+            <a href="" class="web-link link" lang="en">Web<span class="studio-link-footer link" lang="en">Studio</span></a>
+        </div>
+        <div class="contacts-container-footer">
+            <address class="address">г. Киев, пр-т Леси Украинки, 26</address>
+            <a class="footer-mail-tel link" lang="en" href="mailto:info@example.com">info@example.com</a>
+            <a class="footer-mail-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+        </div>
     </footer>
 </body>
 
