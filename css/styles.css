@@ -49,9 +49,9 @@ h1, h2, h3, p {
 
 .container {
   width: 1200px;
-  padding-left: 15px;
+  /* padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
+  padding-top: 94px; */
   margin: auto;
 }
 
@@ -160,9 +160,11 @@ h1, h2, h3, p {
 .hero {
   background-color: var(--color-dark-gray);
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
 
 }
 
@@ -178,7 +180,6 @@ h1, h2, h3, p {
   margin:  200px 452px 30px 452px;
   margin-top: inherit;
   margin-bottom: 30px;
-  padding-top: 200px;
 }
 
 .hero-button {
@@ -217,6 +218,8 @@ h1, h2, h3, p {
 
 .central-list-container {
   background-color: transparent;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .card-set-one {
@@ -236,6 +239,10 @@ h1, h2, h3, p {
 .what-we-do-container {
   background-color: transparent;
   padding-top: 0;
+  padding-bottom: 94px;
+}
+
+.what-we-do-section {
   padding-bottom: 94px;
 }
 
@@ -263,7 +270,7 @@ h1, h2, h3, p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--nav-color);
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /* ----------------------------OUR TEAM--------------- */
@@ -284,6 +291,11 @@ h1, h2, h3, p {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-gray);
+}
+
+.our-team-section {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .team-card-set {
@@ -311,15 +323,13 @@ h1, h2, h3, p {
 .footer {
   background-color: var(--color-dark-gray);
 
-  margin-top: 94px;
-  width: 1600px;
-  height: 252px;
+  max-width: 1600px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .webstudio-container-footer {
-  padding-top: 60px;
+  /* padding-top: 60px; */
   padding-left: 215px;
   padding-bottom: 20px;
 }
@@ -327,6 +337,11 @@ h1, h2, h3, p {
 .contacts-container-footer {
   display: block;
   padding-left: 215px;
+}
+
+.footer-container {
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .studio-link-footer {
@@ -365,7 +380,13 @@ h1, h2, h3, p {
 
 /* ----------------------------PORTFOLIO--------------- */
 
+.portfolio-container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .portfolio-button {
+  padding: 6px 22px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -380,8 +401,8 @@ h1, h2, h3, p {
 
 .portfolio-button-set {
   display: flex;
-  padding-left: 280px;
-  padding-bottom: 34px;
+  justify-content: center;
+  margin-bottom: 30px;
   margin-right: var(--button-set-gap);
 }
 
@@ -399,7 +420,7 @@ h1, h2, h3, p {
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--nav-color);
-  padding-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -425,14 +446,16 @@ h1, h2, h3, p {
   flex-basis: calc(100% / 3 - var(--card-set-gap));
   margin-left: var(--card-set-gap);
   margin-top: var(--card-set-gap);
+  margin-right: auto;
 }
 
-.portfolio-img-thumb {
+/* .portfolio-img-thumb {
   margin-bottom: 20px;
-}
+} */
 
 .portfolio-description {
-  padding: 0 24px 20px 24px;
+  padding: 20px 24px;
+  border: 1px solid #EEEEEE;
 }
 
 
