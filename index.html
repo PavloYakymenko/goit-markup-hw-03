@@ -26,13 +26,15 @@
             </div>
             <nav class="nav">
                 <ul class="header-link-set list">
-                    <li><a class="header-page-link studio link" href="">Студия</a></li>
-                    <li><a class="header-page-link portfolio link" href="./portfolio.html">Портфолио</a></li>
-                    <li><a class="header-page-link contacts link" href="">Контакты</a></li>
+                    <li class="studio"><a class="header-page-link link" href="">Студия</a></li>
+                    <li class="portfolio"><a class="header-page-link link" href="./portfolio.html">Портфолио</a></li>
+                    <li class="contacts"><a class="header-page-link link" href="">Контакты</a></li>
                 </ul>
             </nav>
-            <a class="header-mail-tel mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-            <a class="header-mail-tel tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            <div class="mail-tel-container">
+                <a class="header-mail-tel mail-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="header-mail-tel tel-link link" href="tel:+380961111111">+38 096 111 11 11</a>
+            </div>
         </div>
     </header>
     <main>
@@ -77,9 +79,9 @@
                 </ul>
             </div>
         </section>
-        <section class="container">
-            <h2 class="central-title">Чем мы занимаемся</h2>
-            <div class="what-we-do-section">
+        <section class="what-we-do-section">
+            <div class="container">
+                <h2 class="central-title">Чем мы занимаемся</h2>
                 <ul class="what-we-do-images list">
                     <li class="what-we-do-item">
                         <img src="./images/whatwedo1.jpg" alt="гарна-картинка1" width="370" />
@@ -95,40 +97,50 @@
                 </ul>
             </div>
         </section>
-        <section class="container">
-            <div class="our-team-section">            
+        <section class="our-team-section">
+            <div class="container">            
                 <h2 class="central-title">Наша команда</h2>
                 <ul class="team-card-set list">
                     <li class="team-item">
                         <div class="team-img-thumb">
                             <img src="./images/igor.jpg" alt="Игорь" width="270" />
                         </div>
-                        <h3 class="team-name"> Игорь Демьяненко</h3>
-                        <p class="team-position" lang="en">Product Designer</p>
+                        <div class="card-set-gap">
+                            <h3 class="team-name"> Игорь Демьяненко</h3>
+                            <p class="team-position" lang="en">Product Designer</p>
+                        </div>
                     </li>
 
                     <li class="team-item">
                         <div class="team-img-thumb">
                             <img src="./images/olga.jpg" alt="Ольга" width="270" />
                         </div>
-                        <h3 class="team-name">Ольга Репина</h3>
-                        <p class="team-position" lang="en">Frontend Developer</p>
+                        <div class="card-set-gap">
+                            <h3 class="team-name">Ольга Репина</h3>
+                            <p class="team-position" lang="en">Frontend Developer</p>
+                        </div>
                     </li>
 
                     <li class="team-item">
                         <div class="team-img-thumb">
                             <img src="./images/nikolay.jpg" alt="Николай" width="270" />
                         </div>
-                        <h3 class="team-name">Николай Тарасов</h3>
-                        <p class="team-position" lang="en">Marketing</p>
+                        <div class="card-set-gap">
+                            <h3 class="team-name">Николай Тарасов</h3>
+                            <p class="team-position" lang="en">Marketing</p>
+                        </div>
+                        
                     </li>
 
                     <li class="team-item">
                         <div class="team-img-thumb">
                             <img src="./images/mikhail.jpg" alt="Михаил" width="270" />
                         </div>
-                        <h3 class="team-name">Михаил Ермаков</h3>
-                        <p class="team-position" lang="en">UI Designer</p>
+                        <div class="card-set-gap">
+                            <h3 class="team-name">Михаил Ермаков</h3>
+                            <p class="team-position" lang="en">UI Designer</p>
+                        </div>
+                        
                     </li>
                 </ul>
             </div>

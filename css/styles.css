@@ -27,10 +27,6 @@
   cursor: pointer;
 }
 
-/* main {
-  width: 1600px;
-} */
-
 img {
   display: block;
   max-width: 100%;
@@ -49,9 +45,9 @@ h1, h2, h3, p {
 
 .container {
   width: 1200px;
-  /* padding-left: 15px;
+  padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px; */
+  /* padding-top: 94px; */
   margin: auto;
 }
 
@@ -65,25 +61,30 @@ h1, h2, h3, p {
   border-bottom: 1px solid #ECECEC;
 }
 
-.webstudio-container {
+/* .webstudio-container {
   margin: 24px 93px 25px 215px;
-}
+} */
 
 .header-container {
   width: 1600px;
   height: 80px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header-link-set {
-  margin: 32px 330px 32px 0;
+  /* margin: 32px 330px 32px 0; */
   padding: 0;
   display: flex;
   flex-wrap: wrap;
-  height: 16px;
-  width: 294px;
+  align-items: center;
+  margin-right: 330px;
+  /* height: 16px;
+  width: 294px; */
 }
 
 .web-link {
@@ -120,9 +121,6 @@ h1, h2, h3, p {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--nav-color);
-
-  padding-top: 21px;
-  padding-bottom: 21px;
 }
 
 .studio-link:hover,
@@ -140,13 +138,21 @@ h1, h2, h3, p {
   color: var(--color-gray);
 }
 
-.mail-link {
-  margin: 32px 50px 32px 0;
+.mail-tel-container {
+  
 }
 
-.tel-link {
-  margin: 32px 0 32px 0;
+.nav {
+  margin-right: 330px;
 }
+
+.mail-link {
+  margin-right: 50px;
+}
+
+/* .tel-link {
+  margin: 32px 0 32px 0;
+} */
 
 .footer-mail-tel:hover,
 .footer-mail-tel:focus,
@@ -230,7 +236,7 @@ h1, h2, h3, p {
 
 .central-list-item {
   margin-right: 30px;
-  flex-basis: calc((100%-120px)/4);
+  flex-basis: calc((100% - 120px) / 4);
   
 }
 
@@ -315,8 +321,13 @@ h1, h2, h3, p {
   margin-top: var(--card-set-gap);
 }
 
-.team-img-thumb {
+/* .team-img-thumb {
   margin-bottom: var(--card-set-gap);
+} */
+
+.card-set-gap {
+  padding-top: var(--card-set-gap);
+  padding-bottom: var(--card-set-gap);
 }
 
 /* ----------------------------FOOTER--------------- */
@@ -402,7 +413,7 @@ h1, h2, h3, p {
 .portfolio-button-set {
   display: flex;
   justify-content: center;
-  margin-bottom: 30px;
+  margin-bottom: 50px;
   margin-right: var(--button-set-gap);
 }
 
@@ -454,8 +465,8 @@ h1, h2, h3, p {
 } */
 
 .portfolio-description {
-  padding: 20px 24px;
-  border: 1px solid #EEEEEE;
+  padding: 20px 24px 20px 24px;
+  outline: 1px solid #EEEEEE;
 }
 
 
