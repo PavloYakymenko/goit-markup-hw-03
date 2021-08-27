@@ -57,22 +57,26 @@ h1, h2, h3, p {
 
 /* -------------HEADER--------------- */
 .header {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: var(--white-color);
   border-bottom: 1px solid #ECECEC;
+  display: block;
 }
 
-/* .webstudio-container {
-  margin: 24px 93px 25px 215px;
-} */
+.webstudio-container {
+  margin-right: 93px;
+}
 
 .header-container {
-  width: 1600px;
   height: 80px;
   /* margin-left: auto;
   margin-right: auto; */
+  padding-left: 215px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -142,9 +146,9 @@ h1, h2, h3, p {
   
 }
 
-.nav {
+/* .nav {
   margin-right: 330px;
-}
+} */
 
 .mail-link {
   margin-right: 50px;
