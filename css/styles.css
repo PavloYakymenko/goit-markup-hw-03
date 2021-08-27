@@ -69,26 +69,19 @@ h1, h2, h3, p {
   margin-right: 93px;
 }
 
+.mail-tel-container {
+  margin-left: 328px;
+}
+
 .header-container {
   height: 80px;
-  /* margin-left: auto;
-  margin-right: auto; */
-  padding-left: 215px;
   margin: 0 auto;
   display: flex;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
 .header-link-set {
-  /* margin: 32px 330px 32px 0; */
-  padding: 0;
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  margin-right: 330px;
-  /* height: 16px;
-  width: 294px; */
 }
 
 .web-link {
@@ -142,21 +135,9 @@ h1, h2, h3, p {
   color: var(--color-gray);
 }
 
-.mail-tel-container {
-  
-}
-
-/* .nav {
-  margin-right: 330px;
-} */
-
 .mail-link {
   margin-right: 50px;
 }
-
-/* .tel-link {
-  margin: 32px 0 32px 0;
-} */
 
 .footer-mail-tel:hover,
 .footer-mail-tel:focus,
@@ -187,7 +168,8 @@ h1, h2, h3, p {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  margin:  200px 452px 30px 452px;
+  width: 696px;
+  margin:  0 auto;
   margin-top: inherit;
   margin-bottom: 30px;
 }
@@ -202,9 +184,10 @@ h1, h2, h3, p {
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--white-color);
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 0;
+  margin: 0 auto;
+  padding: 10px 32px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
 }
 
 /* ----------------------------CENTRAL LIST--------------- */
@@ -239,9 +222,12 @@ h1, h2, h3, p {
 }
 
 .central-list-item {
-  margin-right: 30px;
   flex-basis: calc((100% - 120px) / 4);
   
+}
+
+.card-set-one > .central-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* ----------------------------WHAT WE DO--------------- */
@@ -286,6 +272,7 @@ h1, h2, h3, p {
 /* ----------------------------OUR TEAM--------------- */
 
 .team-name {
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -336,27 +323,24 @@ h1, h2, h3, p {
 
 /* ----------------------------FOOTER--------------- */
 .footer {
-  background-color: var(--color-dark-gray);
-
   max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 0 auto;
+  background-color: var(--color-dark-gray);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .webstudio-container-footer {
   /* padding-top: 60px; */
-  padding-left: 215px;
   padding-bottom: 20px;
 }
 
 .contacts-container-footer {
   display: block;
-  padding-left: 215px;
 }
 
 .footer-container {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  
 }
 
 .studio-link-footer {
